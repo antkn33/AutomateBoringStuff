@@ -3,7 +3,7 @@ def div42by(divideBy):
         return 42 / divideBy
     
     except ZeroDivisionError: # error for dividing by zero
-    # except: will catch all errors
+    # except: will catch ZeroDivisionError errors
         print("Error: you tried to divide by zero")
 
 print(div42by(2))
