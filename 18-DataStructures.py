@@ -18,5 +18,6 @@ allCats.append({'name': 'Jerry',
 pprint.pp(allCats)
 allCats[1]
 # type function
-# type(42) # int
-# type(allCats) # list
+type(42) # int
+type(allCats) # list
+type(allCats[0]) # dict
