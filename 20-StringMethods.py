@@ -68,3 +68,10 @@ import pyperclip
 pyperclip.copy('heloooo') # can paste anywhere on computer
 pyperclip.paste() # returns string 'heloooo'
 
+# String Formatting
+name = "Alice"
+place = "my house" 
+time = "6 pm"
+food = "turnips"
+"Hello %s, you are invited to a party at %s at %s. Please bring %s." % ("Alice", "my house", "6 pm", "turnips")
+# or you can do - % (name, place, time, food)
